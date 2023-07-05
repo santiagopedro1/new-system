@@ -46,7 +46,6 @@ tooltip {
     border-radius: 10px;
 }
 
-/* workspaces buttin hover not active */
 #workspaces button:hover:not(.active) {
     background: #11111b;
     color: white;
@@ -55,17 +54,12 @@ tooltip {
 
 #clock,
 #battery,
-#pulseaudio,
 #workspaces,
-#tray,
-#backlight {
+#wireplumber,
+#tray {
     background: #0f172a;
     padding: 0px 10px;
     border: 1px solid #181825;
-}
-
-#backlight {
-    border-radius: 10px 0px 0px 10px;
 }
 
 #tray {
@@ -85,15 +79,9 @@ tooltip {
     border-radius: 10px;
 }
 
-#pulseaudio {
+#wireplumber {
     color: #FFD670;
-}
-
-#pulseaudio.microphone {
-    color: #FF9770;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px;
     margin-right: 10px;
 }
 

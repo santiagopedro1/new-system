@@ -19,7 +19,12 @@ return require('packer').startup(function(use)
 		}
 	}
 
-	use 'Mofiqul/dracula.nvim'
+	use {
+		"folke/tokyonight.nvim",
+		opts = {
+			style = "storm"
+		}
+	}
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
